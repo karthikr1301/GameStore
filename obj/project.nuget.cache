@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7oUA4AX4ybT+9BfPuh36hdv6QcE115hWQZ2AcK+71IRH0yupYjoXcsb80Gah1F44asACuV0rEejSSnmHcUdveA==",
+  "dgSpecHash": "MFfiQLICPLB+/aEzmcmFDzUSOOQoK7K6gFFGF3rpS8vGDWWaJ9p5BP1zq5fI1Q320bvaZjg4J6YXdZz66LXg7A==",
   "success": true,
   "projectFilePath": "E:\\GameStore\\GameStore.Api\\GameStore.Api.csproj",
   "expectedPackageFiles": [
@@ -47,5 +47,16 @@
     "C:\\Users\\admin\\.nuget\\packages\\system.text.json\\9.0.0-preview.3.24172.9\\system.text.json.9.0.0-preview.3.24172.9.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Npgsql' 8.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-x9vc-6hfv-hg8c",
+      "libraryId": "Npgsql",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
